@@ -1,0 +1,21 @@
+{
+  "name": "noblu",
+  "displayName": "NoBlu",
+  "description": "there is no blue in this theme. The real dark mode.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "NoBlu",
+        "uiTheme": "vs-dark",
+        "path": "./themes/NoBlu-color-theme.json"
+      }
+    ]
+  }
+}
